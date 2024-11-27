@@ -1,29 +1,112 @@
 <%- include('./layouts/header') %>
 
-<h1 class="title">Role Based Access Control</h1>
-<div class="tutorial-info">
-  <ol class="tutorial-info">
-    <li><b>Express JS </b></li>
-    <li><b>EJS</b> templating engine</li>
-    <li>
-      <b>Styling — </b>custom CSS (you can use any like Bootstrap, Bulma,
-      Tailwind, etc...)
-    </li>
-    <li><b> PassportJS </b>local authentication(email, password)</li>
-    <li><b>Roles</b> (admin, moderator, client)</li>
-    <li><b>Authorization</b> (admin, moderator and user routes)</li>
-    <li><b>Mongoose</b> (ORM for MongoDB)</li>
-    <li>How to use <b>express sessions</b></li>
-    <li>
-      Using sessions to <b>persist login </b> after server reboot (using Mongo
-      Store)
-    </li>
-    <li><b>Redirect</b> to same page after login.</li>
-    <li><b>Validating</b> user input server side</li>
-    <li><b>Flash messages</b></li>
-    <li>Handling <b>HTTP error</b> (ex: 404, etc)</li>
-    <li>Somethings are always extra 😊</li>
-  </ol>
+<div class="info-card-container">
+  <div class="info-card">
+
+    <div class="card-content">
+      <img src="https://i.pinimg.com/1200x/2b/ab/e9/2babe93bbaf35135d92df2007efb3aa4.jpg" alt="Your Photo" class="profile-picture"
+      <h2>Prayas Jadhav</h2>
+      <p class="designation">AI Enthusiast</p>
+      <p class="location">
+        <i class="fas fa-map-marker-alt"></i> Nagpur, India
+      </p>
+      <p class="company">
+        <i class="fas fa-building"></i> Student at GHRCEMN
+      </p>
+      <p class="email">
+        <i class="fas fa-envelope"></i> techcraze00@gmail.com
+      </p>
+      <button class="read-more-btn">Read More</button>
+    </div>
+  </div>
 </div>
+
+<style>
+  body {
+    background-image: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148945958.jpg?t=st=1732736757~exp=1732740357~hmac=17a0f5853c542814275bb776127a4aa1e47706843d11478e63b9886f9f1c96bb&w=996");
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+  }
+  
+
+  .info-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+  }
+
+  .info-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .card-header {
+    background: url('/path/to/your-header-image.jpg') no-repeat center/cover;
+    height: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .profile-picture {
+    background-image: url(https://i.pinimg.com/1200x/00/11/bc/0011bcaddad4f7ed0700426e1b434624.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -40px;
+    background-size: cover;
+  }
+
+  .info-card h2 {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+
+  .designation {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 10px;
+  }
+
+  .location, .company, .email {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .read-more-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .read-more-btn:hover {
+    background: #0056b3;
+  }
+</style>
 
 <%- include('./layouts/footer') %>
