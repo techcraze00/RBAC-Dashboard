@@ -2,7 +2,11 @@
 
 
 
-[**Project working demonstration**](https://www.youtube.com/watch?v=Pn_RWrchAII)
+
+
+
+https://github.com/user-attachments/assets/4ed63ca6-ed11-4fe3-9103-3029ba1ba9a0
+
 
 
 A minimal, efficient, and user-friendly admin dashboard to manage users, roles, and permissions using Role-Based Access Control (RBAC). Built with **CSS** for the frontend and **Express.js** for the backend.
@@ -18,6 +22,9 @@ The application is based on the **MVC pattern** i.e. Model View Controller.
 
 **Passport JS** is used for local(email, password) authentication.
 
+---
+
+##Check out the [**YouTube Preview**](https://www.youtube.com/watch?v=Pn_RWrchAII)
 
 ---
 
