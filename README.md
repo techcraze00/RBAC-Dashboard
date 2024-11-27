@@ -80,7 +80,7 @@ This project is licensed under the MIT License.
 
 ---
 
-# This project is inspired from [**Truly Mittal**](https://trulymittal.com)
+#### This project is inspired from [**Truly Mittal**](https://trulymittal.com)
 
 ---
 
