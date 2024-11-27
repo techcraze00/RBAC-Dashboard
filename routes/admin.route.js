@@ -119,3 +119,31 @@ router.post('/add-user', async (req, res, next) => {
   }
 });
 
+
+// Delete user route
+router.post('/delete-user', async (req, res, next) => {
+  try {
+    const { id } = req.body;
+
+    // Validate the ID
+    if (!id || !mongoose.Types.ObjectId.isValid(id)) {
+      req.flash('error', 'Invalid user ID.');
+      return res.redirect('/admin/users');
+    }
+
+    // Prevent admin from deleting themselves
+    if (req.user.id === id) {
+      req.flash('error', 'You cannot delete your own account.');
+      return res.redirect('/admin/users');
+    }
+
+    // Delete the user from the database
+    await User.findByIdAndDelete(id);
+
+    req.flash('info', 'User deleted successfully.');
+    res.redirect('/admin/users');
+  } catch (error) {
+    next(error);
+  }
+});
+

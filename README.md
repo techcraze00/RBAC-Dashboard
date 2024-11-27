@@ -1,4 +1,6 @@
-# Role Based Access Control (...still in dev mode...)
+# Role Based Access Control (RBAC) Dashboard
+
+A minimal, efficient, and user-friendly admin dashboard to manage users, roles, and permissions using Role-Based Access Control (RBAC). Built with **CSS** for the frontend and **Express.js** for the backend.
 
 This is a Role Based Access Control application using Nodejs, Express, Passport Js, etc.
 You can use this application as the starting point for whatever project you are going to build which needs authentication and authorization.
@@ -14,6 +16,9 @@ The application is based on the **MVC pattern** i.e. Model View Controller.
 The application is _almost_ **production ready**.
 
 ---
+
+
+
 
 ## To start setting up the project
 
@@ -52,10 +57,18 @@ Step 6: Start the app by
 ```bash
 npm start
 ```
+---
+
+### **Prerequisites**
+Ensure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+---
 
 ## Author
 
-- [**Truly Mittal**](https://trulymittal.com)
+- [**TechCraze**](https://github.com/techcraze00)
 
 ## Contribute
 
@@ -64,3 +77,16 @@ You can fork this repo and send me a PR.
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+#### This project is inspired from [**Truly Mittal**](https://trulymittal.com)
+
+---
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+Email: techcraze00@gmail.com
+

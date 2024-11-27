@@ -332,3 +332,55 @@ input::placeholder {
 }
 
 
+/* Flex container for actions */
+.action-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between elements */
+}
+
+/* Dropdown styles */
+.role-dropdown {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Update button styles */
+.btn-update {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-update:hover {
+  background-color: #45a049;
+}
+
+/* Delete button styles */
+.btn-delete {
+  background: none;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: px;
+  /*margin: 3px;*/
+}
+
+.btn-delete:hover {
+  color: #ff1a1a;
+}
+
+
+.role-td{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
