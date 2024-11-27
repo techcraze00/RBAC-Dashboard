@@ -2,7 +2,7 @@
 
 
 
-https://github.com/user-attachments/assets/54c975a5-ed09-45dd-b1fe-0900738e5e07
+[**Project working demonstration**](https://www.youtube.com/watch?v=Pn_RWrchAII)
 
 
 A minimal, efficient, and user-friendly admin dashboard to manage users, roles, and permissions using Role-Based Access Control (RBAC). Built with **CSS** for the frontend and **Express.js** for the backend.
