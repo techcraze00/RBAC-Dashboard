@@ -1,5 +1,10 @@
 # Role Based Access Control (RBAC) Dashboard
 
+
+
+https://github.com/user-attachments/assets/54c975a5-ed09-45dd-b1fe-0900738e5e07
+
+
 A minimal, efficient, and user-friendly admin dashboard to manage users, roles, and permissions using Role-Based Access Control (RBAC). Built with **CSS** for the frontend and **Express.js** for the backend.
 
 This is a Role Based Access Control application using Nodejs, Express, Passport Js, etc.
@@ -13,7 +18,6 @@ The application is based on the **MVC pattern** i.e. Model View Controller.
 
 **Passport JS** is used for local(email, password) authentication.
 
-The application is _almost_ **production ready**.
 
 ---
 
